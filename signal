@@ -1,0 +1,28 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+      Scanner s=new Scanner(System.in);
+        String clr=s.next();
+        
+        if(clr.equals("red"))
+        {
+            System.out.println("Stop");
+        }
+        else if(clr.equals("green"))
+        {
+            System.out.println("Go");
+        }
+        else if(clr.equals("yellow"))
+        {
+            System.out.println("Get Ready");
+        }
+        else{
+            System.out.println("Invalid Input");
+        }
+        
+        
+    }
+}
